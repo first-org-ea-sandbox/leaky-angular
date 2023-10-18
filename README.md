@@ -14,7 +14,7 @@
 LeakyAngular is a deliberately vulnerable angular application. The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4. It uses the [javulna](https://github.com/edu-secmachine/javulna) backend. LeakyAngular (together with the javulna backend) is a movie-related application, where you can log in and out, read information about movies, buy movie-related objects, send messages to other users of the application, etc. The functionalities are far from complete or coherent, they just serve the purpose of demonstrating specific vulnerabilities. This document contains exercises which can be done with LeakyAngular to understand how to exploit and how to fix specific vulnerabilities.
 
 <a name="Build"></a>
-## Building, running this application
+## Building and running the application
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  
   
