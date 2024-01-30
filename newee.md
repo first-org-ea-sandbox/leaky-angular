@@ -1,4 +1,4 @@
 Sample Revoked Secrets:
-AKIAWINI3KANZWMLWCYS
+aws_access_key_id:AKIAWINI3KANZWMLWCYS
 
-CCT0ZKERvzcHbTW/b4I9BX6SOYSQvtbxKaQHwv9d
+aws_secret_access_key:CCT0ZKERvzcHbTW/b4I9BX6SOYSQvtbxKaQHwv9d
