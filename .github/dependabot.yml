@@ -35,6 +35,7 @@ updates:
       -  github-octocat # Allow version updates for dependencies in this registry
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 10
     ignore:
       - dependency-name: "first-org-ea-sandbox/codeqlTest"
         # For Express, ignore all Dependabot updates for version 4 and 5
