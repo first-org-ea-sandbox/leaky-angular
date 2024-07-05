@@ -49,6 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: green
     strategy:
+      max-parallel: 1
       matrix:
         version: [10, 12, 14]
     steps:
