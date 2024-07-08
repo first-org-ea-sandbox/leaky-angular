@@ -55,4 +55,4 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.version }}
+          node-version: ${{ vars.MAX_PARALLEL_JOBS }}
