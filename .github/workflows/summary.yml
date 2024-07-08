@@ -49,10 +49,10 @@ jobs:
     runs-on: ubuntu-latest
     environment: green
     strategy:
-      max-parallel: 1
+      max-parallel: ${{ vars.MAX_PARALLEL_JOBS }}
       matrix:
         version: [10, 12, 14]
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ vars.MAX_PARALLEL_JOBS }}
+          node-version:  ${{ matrix.version }}
