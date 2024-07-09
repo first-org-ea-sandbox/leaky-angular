@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: green
     strategy:
-      max-parallel: ${{ vars.MAX_PARALLEL_JOBS }}
+      # max-parallel: ${{ vars.MAX_PARALLEL_JOBS }}
       matrix:
         version: [10, 12, 14]
     steps:
