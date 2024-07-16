@@ -10,3 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello world'
+
+  hello-world2:
+    name: Hello world  renewed
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hello world renewed'
