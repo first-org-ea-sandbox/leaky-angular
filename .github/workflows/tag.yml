@@ -1,8 +1,6 @@
 name: Tags
 on:
   push:
-    tags:
-      - '**'
 
 jobs:
   hello-world:
