@@ -16,3 +16,10 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+  
+  job2:
+    uses: .github/workflows/reusable.yml@master
+    with:
+      config-path: .github/labeler.yml
+    secrets:
+      envPAT: ${{ secrets.MY_PAT}}
