@@ -18,7 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   
   job2:
-    uses: .github/workflows/reusable.yml@master
+    uses: first-org-ea-sandbox/leaky-angular/.github/workflows/reusable.yml@master
     with:
       config-path: .github/labeler.yml
     secrets:
