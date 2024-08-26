@@ -1,7 +1,8 @@
 name: jira
 
 on:
-  push
+  push:
+  workflow_dispatch:
 
 jobs:
   # deploy:
