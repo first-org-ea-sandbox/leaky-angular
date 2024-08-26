@@ -61,7 +61,7 @@ jobs:
   matrix2:
     runs-on: ubuntu-latest
     # needs: [ example_matrix ]
-    environment: Production
+    environment: dev
     strategy:
       # max-parallel: ${{ vars.MAX_PARALLEL_JOBS }}
       matrix:
