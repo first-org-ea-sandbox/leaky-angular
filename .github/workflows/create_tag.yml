@@ -2,6 +2,7 @@ name: Push Tag
 
 on:
   push:
+  workflow_dispatch:
    
 jobs:
   push_tag:
@@ -9,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
       - id: foo
         uses: first-org-ea-sandbox/codeqlTest@v1
         with:
