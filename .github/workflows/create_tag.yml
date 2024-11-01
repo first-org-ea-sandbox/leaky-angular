@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: first-org-ea-sandbox/codeqlTest@v1
+        uses: first-org-ea-sandbox/codeqlTest@v4
         with:
           who-to-greet: 'Mona the Octocat fried'
       # - name: Generate Git Tag
