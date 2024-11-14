@@ -1,6 +1,6 @@
 # Leaky  Angular
 
-## Table of Contents modified now
+## Table of Contents modified now again
 1. [Introduction](#Introduction)
 2. [Building, running the application](#Build)
 3. [Configuring a backend](#Backend)
