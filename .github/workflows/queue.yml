@@ -1,0 +1,17 @@
+name: Merge Group Workflow
+
+on: 
+  push:
+  pull_request:
+  merge_group:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Run a one-liner script
+      run: echo "Merge group event triggered!"
