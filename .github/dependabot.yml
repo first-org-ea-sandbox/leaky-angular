@@ -22,21 +22,29 @@
 
 
 version: 2
-registries:
-  github-octocat:
-    type: git
-    url: https://github.com
-    username: okimaureen
-    password: ${{secrets.MY_PAT}}
+# registries:
+#   github-octocat:
+#     type: git
+#     url: https://github.com
+#     username: okimaureen
+#     password: ${{secrets.MY_PAT}}
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
-    registries:
-      -  github-octocat # Allow version updates for dependencies in this registry
+    # registries:
+    #   -  github-octocat # Allow version updates for dependencies in this registry
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 10
-    ignore:
-      - dependency-name: "first-org-ea-sandbox/codeqlTest"
-        # For Express, ignore all Dependabot updates for version 4 and 5
-        versions: ["3.x"]
+    
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    # registries:
+    #   -  github-octocat # Allow version updates for dependencies in this registry
+    schedule:
+      interval: "daily"
+   
+    # ignore:
+    #   - dependency-name: "first-org-ea-sandbox/codeqlTest"
+    #     # For Express, ignore all Dependabot updates for version 4 and 5
+    #     versions: ["3.x"]
