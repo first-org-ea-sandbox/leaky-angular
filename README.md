@@ -1,4 +1,4 @@
-# A quite Leaky Angular  project updated
+# A quite Leaky Angular  project codeowners updated
 
 ## Table of Contents
 1. [Introduction](#Introduction)
