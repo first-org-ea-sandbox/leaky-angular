@@ -1,3 +1,4 @@
+name: Stuck Workflow - if always() (Reproduction)
 # Manual trigger so it doesn't run on every push
 on:
   workflow_dispatch:
